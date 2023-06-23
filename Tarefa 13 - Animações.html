@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  body {
+background-color: violet;
+}
+  .heart {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(224, 19, 173);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: pulse 2s infinite;
+  }
+    </style>
+  <title>Coração Pulsante</title>
+</head>
+<body>
+  <div class="heart"></div>
+  <h1 style="color:purple; padding:30px; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">Descodificadas</h1>
+  <p style="color:purple; padding:30px; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">Eu amo tecnologia!</p>
+</body>
+</html>
